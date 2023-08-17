@@ -65,7 +65,6 @@ function onGalleryListContainerClick(evt) {
   class="gallery__image"
   src="${largeImgUrl}"
   width="1280" 
-  height="auto"
 />
 `);
   instance.show();
