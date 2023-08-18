@@ -75,7 +75,6 @@ function onGalleryListContainerClick(evt) {
     const ESC = "Escape";
     if (evt.code === ESC) {
       instance.close();
-      console.log(close);
       document.removeEventListener("keydown", onEscKeyPress);
     }
   }
